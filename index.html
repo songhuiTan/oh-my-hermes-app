@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>oh-my-hermes-app</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: linear-gradient(135deg, #0f0c29 0%, #1f1b4e 40%, #23215a 70%, #0f0c29 100%);
+      color: #e4e4e7;
+      line-height: 1.6;
+    }
+
+    .container {
+      text-align: center;
+      max-width: 640px;
+      padding: 48px 24px;
+    }
+
+    .emoji-icon {
+      font-size: 64px;
+      margin-bottom: 24px;
+      display: block;
+    }
+
+    h1 {
+      font-size: 48px;
+      font-weight: 700;
+      margin-bottom: 16px;
+      background: linear-gradient(to right, #a78bfa, #60a5fa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .tagline {
+      font-size: 18px;
+      color: #a1a1aa;
+      margin-bottom: 32px;
+    }
+
+    .divider {
+      width: 48px;
+      height: 3px;
+      background: linear-gradient(to right, #a78bfa, #60a5fa);
+      border-radius: 2px;
+      margin: 0 auto 32px;
+    }
+
+    p {
+      font-size: 15px;
+      color: #a1a1aa;
+      margin-bottom: 40px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 12px 28px;
+      font-size: 15px;
+      font-weight: 500;
+      color: #fff;
+      background: linear-gradient(to right, #7c3aed, #3b82f6);
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: transform .15s, box-shadow .15s;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 8px 24px rgba(124, 58, 237, 0.35);
+    }
+
+    .footer-link {
+      display: inline-block;
+      margin-top: 48px;
+      font-size: 13px;
+      color: #52525b;
+      text-decoration: none;
+      transition: color .15s;
+    }
+
+    .footer-link:hover {
+      color: #a1a1aa;
+    }
+
+    @media (max-width: 480px) {
+      h1 { font-size: 32px; }
+      .tagline { font-size: 16px; }
+      .container { padding: 32px 16px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <span class="emoji-icon">⚡</span>
+    <h1>oh-my-hermes-app</h1>
+    <p class="tagline">AI 驱动的全栈应用开发之旅</p>
+    <div class="divider"></div>
+    <p>
+      Hermes Agent 全权编排 ——<br>
+      从想法到部署，Agent 团队协同交付
+    </p>
+    <a class="btn" href="https://github.com/songhuiTan/oh-my-hermes-app" target="_blank" rel="noopener">
+      <svg width="18" height="18" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+      View on GitHub
+    </a>
+    <br>
+    <a class="footer-link" href="https://github.com/songhuiTan/oh-my-hermes-app/blob/main/AGENTS.md" target="_blank" rel="noopener">
+      AGENTS.md →
+    </a>
+  </div>
+</body>
+</html>
